@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.grid{
+  margin-top: 2%;
+}
+
+.node{
+  width: 25px;
+  height: 25px;
+  border: 1px solid grey;
+  display: inline-block;
+  margin-top: -4px;
+}
+
+.isStart{
+  background-color: black;
+}
+
+.isEnd{
+  background-color: red;
+}
+
+.nodeStart{
+  cursor: grab;
+}
